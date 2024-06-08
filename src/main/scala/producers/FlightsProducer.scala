@@ -10,7 +10,7 @@ import scala.io.Source
 
 object FlightsProducer extends App {
 
-  if (args.length != 4) {
+  if (args.length != 5) {
     println("Należy podać pięć parametrów: " +
       "inputDir sleepTime topicName headerLength bootstrapServers")
     System.exit(0)
